@@ -1,1 +1,26 @@
+AIRGEAD BANKING APPLICATION 
+
+The objective of this project was to develop an application that could calculate the future value of an investment, taking into account the following:
+•	Initial investment – the starting amount of the investment
+•	Monthly deposit – the amount the end-user planned to contribute over and above the initial investment
+•	Annual interest (compounded) – the interest added to the principal sum of the investment and its previously accumulated interest.
+•	Duration of the investment – the number of years the end-user intended to investment
+
+Furthermore, the requirements also called for screens to capture the abovementioned information, as well as a screen to display the projected results.
+
+What went particularly well for me was abstracting the components of this application into its respective objects. This eased the task of defining the objects, their properties, and their behaviors. Once I had established
+the properties and behaviours of the respective objects, the next step was to determine their relationships and to translate them into code.
+
+The difficult part came when I had to integrate the respective objects and their interactions into one coherent application. A gut-feel approach would have been to just incorporate all the respective pieces of code into
+main and test to see if it would work, because I already had a map of their interactions. Instead, though, I incorporated only one piece at a time, testing whether it worked, and only then proceeded to add another piece. The
+result was that, at the end of coding the whole application, I ended up with a fully functioning application, relatively free from errors. 
+
+In its current form, the code does not have much input validation and error handling so there is a lot of room for improvement in those areas. When it comes to memory management, the code can be improved for efficiency. Also,
+when I had a look at the code again, I saw that the data capture portion of the code could be abstracted into a function, cutting down on the number of lines of code in the main section. 
+
+The most valuable skill I took away from this project was planning skills, because failure to plan is planning to fail. Having a roadmap for my application made its implementation way easier. Then, there is encapsulation, which simplified the application of object-oriented programming. Finally, there is data abstraction, which exposed only the necessary elements to the end-user, and controlled how the end-user interacted with elements of the class. The benefit of these concepts was that they are transferable to other coding languages.
+I made the code maintainable, readable, and adaptable, by separating it into functional modules. The individual functional modules are easy to read because they are not too long. The fact that they are not too long, and easy to understand, also makes it easy to maintain and adapt. 
+
+
+
 
